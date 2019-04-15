@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Trivia App</string>
+    <string name="settings_menu_item">History</string>
+    <string name="str_next">Next</string>
+    <string name="str_finish">Finish</string>
+    <string name="str_name">What is your name?</string>
+    <string name="str_done">Done</string>
+    <string name="str_results">Results</string>
+    <string name="str_gotohome">Go to Home</string>
+    <string name="str_viewans">View Answer</string>
+    <string name="str_summery">Here are the answers selected :</string>
+
+</resources>

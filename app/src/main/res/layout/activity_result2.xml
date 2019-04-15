@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/default_padding_activity"
+    android:layout_marginBottom="@dimen/default_padding_activity"
+    android:layout_marginLeft="@dimen/default_padding_activity"
+    android:layout_marginRight="@dimen/default_padding_activity"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".View.ResultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_RName"
+        android:paddingTop="@dimen/default_result_textview_padding"
+        android:paddingLeft="@dimen/default_result_textview_padding"
+        android:paddingBottom="@dimen/default_result_textview_padding"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/default_title_text_size"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_Rsummery"
+        android:text="@string/str_summery"
+        android:paddingTop="@dimen/default_result_textview_padding"
+        android:paddingLeft="@dimen/default_result_textview_padding"
+        android:paddingBottom="@dimen/default_result_textview_padding"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/default_title_text_size"
+        android:layout_below="@+id/txt_RName"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/default_result_textview_padding"
+        android:paddingLeft="@dimen/default_result_textview_padding"
+        android:paddingBottom="@dimen/default_result_textview_padding"
+        android:id="@+id/txt_RowQue"
+        android:textSize="@dimen/default_result_text_size"
+        android:layout_below="@+id/txt_Rsummery" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/default_result_textview_padding"
+        android:paddingLeft="@dimen/default_result_textview_padding"
+        android:paddingBottom="@dimen/default_result_textview_padding"
+        android:id="@+id/txt_RAnswer"
+        android:textSize="@dimen/default_result_text_size"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/default_result_textview_padding"
+        android:paddingBottom="@dimen/default_result_textview_padding"
+        android:paddingLeft="@dimen/default_result_textview_padding"
+        android:id="@+id/txt_R1Que"
+        android:textSize="@dimen/default_result_text_size"
+        android:layout_below="@+id/txt_RAnswer" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/default_result_textview_padding"
+        android:paddingLeft="@dimen/default_result_textview_padding"
+        android:paddingBottom="@dimen/default_result_textview_padding"
+        android:id="@+id/txt_R1Answer"
+        android:layout_below="@+id/txt_R1Que"
+        android:textSize="@dimen/default_result_text_size"
+        />
+    <Button
+        android:id="@+id/btn_RFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_finish"
+        />
+
+
+
+
+</LinearLayout>
